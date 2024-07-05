@@ -1,0 +1,4 @@
+本章主要是引入动态路由 如/info/:lang 可以匹配/info/c /info/go 等
+/static/*filePath 可以匹配/static/fav.ico和/static/js/jQuery.js等
+
+实现这一功能的核心是Trie前缀树

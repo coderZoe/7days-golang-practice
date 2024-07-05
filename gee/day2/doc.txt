@@ -1,0 +1,2 @@
+本章主要是封装context，原始的Handler，入参是writer和request，这俩api用起来不那么方便
+因此将入参改为context，context本质还是只有这两个信息，但context提供了一些更方便用的api 如JSON 将返回结果写出为json
