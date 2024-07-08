@@ -69,8 +69,7 @@ func (c *Context) errorCode(code int, err error) {
 
 // 通过next来控制转移 串行的执行中间件
 
-//这块代码的逻辑挺深的，我们一点点来分析，假设我们的中间件全部是
-//详细解释参见../Next.md解释
+//这块代码的逻辑挺深的，详细解释参见../Next.md解释
 func (c *Context) Next() {
 	c.index++
 	s := len(c.middleware)
