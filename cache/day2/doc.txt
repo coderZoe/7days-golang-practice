@@ -1,0 +1,2 @@
+本章主要是引入sync.Mutex锁
+同时引入多cache，类似于redis的多db概念
